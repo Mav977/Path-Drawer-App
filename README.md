@@ -1,4 +1,4 @@
-# 🤖 Robot Path Drawer (React Native + BLE + ESP32)
+#  Robot Path Drawer (React Native + BLE + ESP32)
 
 This is a **single-page React Native app** that lets you **draw paths on-screen** and then sends that path as **movement instructions** to an ESP32-controlled robot using **Bluetooth Low Energy (BLE)**.
 
@@ -8,15 +8,15 @@ Once the drawing is complete, the app converts the path into real-world coordina
 
 ## 📱 Features
 
-- 🎨 Draw gestures directly on a canvas
-- 🔄 Converts drawings into real-world measurements
-- 🤖 Translates paths into robot movement commands
-- 📡 Sends instructions over BLE to ESP32
-- 🖥 Clean UI and real-time feedback
+-  Draw gestures directly on a canvas
+-  Converts drawings into real-world measurements
+-  Translates paths into robot movement commands
+-  Sends instructions over BLE to ESP32
+-  Clean UI and real-time feedback
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. **Draw** a path on the screen.
 2. The app:
@@ -30,7 +30,7 @@ Once the drawing is complete, the app converts the path into real-world coordina
 
 ---
 
-## 📸 Screenshots
+
 
 | Drawing Screen | BLE Controls |
 | -------------- | ------------ |
@@ -38,20 +38,4 @@ Once the drawing is complete, the app converts the path into real-world coordina
 
 ---
 
-## 🔌 Requirements
 
-- React Native (with Expo)
-- ESP32 with BLE support
-- [`react-native-ble-plx`](https://github.com/dotintent/react-native-ble-plx) for BLE communication
-- [`react-native-svg`](https://github.com/software-mansion/react-native-svg) for drawing
-
----
-
-## 🚀 Setup & Run
-
-```bash
-# Install dependencies
-npm install
-
-# Run the app (Expo)
-npx expo start
